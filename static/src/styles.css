@@ -1,0 +1,52 @@
+@font-face {
+    font-family: susiFont;
+    src: url(../fonts/AvenirLTStd-Book.otf);
+}
+  
+div{
+    font-family: susiFont, sans-serif;
+}
+
+a {
+    color: inherit;
+}
+
+#main-logo {
+    width: 150px;
+}
+#header-title {
+    text-align: center;
+    padding: 50px;
+}
+
+
+.menu li{
+   color: #BFBAB2; 
+}
+
+#carouselGaleria{
+    width: 1200px;
+}
+
+.content {
+    margin-left: 10px;
+}
+
+  
+  @media screen and (max-width: 992px) {
+    #carouselGaleria {
+      width: 720px;
+    }
+  }
+  
+  @media screen and (max-width: 720px) {
+    #carouselGaleria {
+        width: 600px;
+      }
+  }
+
+  @media screen and (max-width: 600px) {
+    #carouselGaleria {
+        width: 360px;
+      }
+  }
