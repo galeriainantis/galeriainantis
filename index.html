@@ -44,21 +44,24 @@
                     <a class="nav-link active" aria-current="page" href="#">La galería</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#salto">Exposiciones</a>
+                    <a class="nav-link" href="#expo">Exposiciones</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Artistas</a>
+                    <a class="nav-link" href="#artists">Artistas</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Ferias</a>
+                    <a class="nav-link" href="#ferias">Ferias</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Tienda</a>
+                    <a class="nav-link" href="#shop">Tienda</a>
                   </li>
                 </ul>
               </div>
             </div>
           </nav>
+          <div class="content">
+              <h2>La galería</h2>
+          </div>
           <div id="carouselGaleria">
             <div id="carouselGaleriaInAntis" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
@@ -93,7 +96,7 @@
           </div>
           <div class="content">
               <div>
-                  <h2>Exposiciones</h2>
+                  <a id="expo"><h2>Exposiciones</h2></a>
                   <ul>
                       <li>
                         Historias de punto y seguido. - Nuria Figueiredo
@@ -102,7 +105,7 @@
               </div>
               <hr>
               <div>
-                <h2>Artistas</h2>
+                <a id="artists"><h2>Artistas</h2></a>
                 <ul>
                     <li>
                       Nuria Figueiredo
@@ -111,7 +114,7 @@
             </div>
             <hr>
             <div>
-                <h2>Ferias</h2>
+                <a id="ferias"><h2>Ferias</h2></a>
                 <ul>
                     <li>
                       ESTAMPA
@@ -120,17 +123,142 @@
             </div>
             <hr>
             <div>
-                <h2>Tienda</h2>
-                <ul>
-                    <li>
-                      Poner dropdown: Pintura, Escultura, Dibujo, Otros
-                    </li>
-                </ul>
+                <a id="shop"><h2>Tienda</h2></a>
+                <div class="shop-sections">
+                    <div id="painting">
+                        <h4>Pinturas</h4>
+                        <div class="card-group">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="./static/images/cuadro-1.jpg" alt="Cuadro">
+                                <div class="card-body">
+                                  <h5 class="card-title">A la Intemperie (Serie)</h5>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                  <li class="list-group-item">2200€</li>
+                                  <li class="list-group-item">En stock</li>
+                                </ul>
+                                <div class="card-body">
+                                  <button type="button" class="btn-custom">Comprar</button>
+                                </div>
+                              </div>
+                              <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="./static/images/cuadro-2.jpg" alt="Cuadro">
+                                <div class="card-body">
+                                  <h5 class="card-title">A la Intemperie (Serie)</h5>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                  <li class="list-group-item">1800€</li>
+                                  <li class="list-group-item">En stock</li>
+                                </ul>
+                                <div class="card-body">
+                                  <button type="button" class="btn-custom">Comprar</button>
+                                </div>
+                              </div>
+                              <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="./static/images/cuadro-3.jpg" alt="Cuadro">
+                                <div class="card-body">
+                                  <h5 class="card-title">A la Intemperie (Serie)</h5>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                  <li class="list-group-item">2200€</li>
+                                  <li class="list-group-item">En stock</li>
+                                </ul>
+                                <div class="card-body">
+                                  <button type="button" class="btn-custom">Comprar</button>
+                                </div>
+                              </div>
+                              <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="./static/images/cuadro-5.jpg" alt="Cuadro">
+                                <div class="card-body">
+                                  <h5 class="card-title">A la Intemperie (Serie)</h5>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                  <li class="list-group-item">2200€</li>
+                                  <li class="list-group-item">En stock</li>
+                                </ul>
+                                <div class="card-body">
+                                  <button type="button" class="btn-custom">Comprar</button>
+                                </div>
+                              </div>
+                       
+                    </div>
+                    <hr>
+                    <div id="sculpture">
+                        <h4>Escultura</h4>
+                        <div class="card-group">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="./static/images/escultura-1.jpg" alt="Escultura">
+                                <div class="card-body">
+                                  <h5 class="card-title">Gárgola (Serie)</h5>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                  <li class="list-group-item">450€</li>
+                                  <li class="list-group-item">En stock</li>
+                                </ul>
+                                <div class="card-body">
+                                  <button type="button" class="btn-custom">Comprar</button>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="./static/images/escultura-2.jpg" alt="Cuadro">
+                                <div class="card-body">
+                                  <h5 class="card-title">Gárgola (Serie)</h5>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                  <li class="list-group-item">450€</li>
+                                  <li class="list-group-item">En stock</li>
+                                </ul>
+                                <div class="card-body">
+                                  <button type="button" class="btn-custom">Comprar</button>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="./static/images/obra-grande.jpg" alt="Obra">
+                                <div class="card-body">
+                                  <h5 class="card-title">En Recuerdo</h5>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                  <li class="list-group-item">3800€</li>
+                                  <li class="list-group-item">En stock</li>
+                                </ul>
+                                <div class="card-body">
+                                  <button type="button" class="btn-custom">Comprar</button>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div id="draws">
+                        <h4>Dibujos</h4>
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="./static/images/cuadro-3.jpg" alt="Dibujo">
+                            <div class="card-body">
+                              <h5 class="card-title">Las Hermanas</h5>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                              <li class="list-group-item">275€</li>
+                              <li class="list-group-item">En stock</li>
+                            </ul>
+                            <div class="card-body">
+                              <button type="button" class="btn-custom">Comprar</button>
+                            </div>
+                          </div>
+
+                    </div>
+                    <hr>
+                    <div id="other">
+                        <h4>Otros</h4>
+
+                    </div>
+
+                </div>
             </div>
             <hr>
-            
           </div>
-          
+      </div>
+
+      <div class="footer text-center">
+        Galería IN ANTIS · 2022 ·  <a href="https://www.instagram.com/galeriainantis/" target="new">@galeriainantis <img id="insta-logo" src="./static/images/insta.png" alt="Instagram"></a>
 
       </div>
 

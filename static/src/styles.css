@@ -7,8 +7,23 @@ div{
     font-family: susiFont, sans-serif;
 }
 
+.btn-custom{
+    color: #BFBAB2;
+    border-radius: 5px;
+    border: 1px solid #999 ;
+}
+
 a {
     color: inherit;
+}
+
+.card{
+    margin: 20px;
+}
+
+#insta-logo {
+    filter: grayscale(1);
+    width: 30px;
 }
 
 #main-logo {
@@ -24,15 +39,37 @@ a {
    color: #BFBAB2; 
 }
 
-#carouselGaleria{
-    width: 1200px;
-}
+
+.carousel-inner img {
+    margin: auto;
+  }
 
 .content {
     margin-left: 10px;
 }
 
-  
+.shop-sections {
+    padding-left: 40px;
+}
+
+.footer a{
+    color: black;
+}
+
+.card-title {
+    font-style: italic;
+}
+
+ @media screen and (max-width: 1400px) {
+    #carouselGaleria {
+      width: 1320px;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    #carouselGaleria {
+      width: 1200px;
+    }
+  }
   @media screen and (max-width: 992px) {
     #carouselGaleria {
       width: 720px;
